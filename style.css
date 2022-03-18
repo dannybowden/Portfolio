@@ -38,9 +38,12 @@ h1 {
 
 #hero-buttons {
   color: #ffffff;
-  font-size: 2.5rem;
   width: 64px;
-  padding: 0.5rem;
+  position: absolute;
+  left: 90%;
+  top: 3%;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .fab:hover {
@@ -190,6 +193,11 @@ input:hover {
   .hero-subtext {
     font-size: 2.5rem;
     font-weight: bold;
+  }
+
+  #hero-buttons {
+    font-size: 4rem;
+    left: 95%;
   }
 
   .about-me {
