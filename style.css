@@ -6,7 +6,7 @@
 body {
   font-family: "Karla", sans-serif;
   background-color: #14213d;
-  color: white;
+  color: #ffffff;
 }
 
 /* Hero starts here */
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #ffffff;
   font-size: 3rem;
 }
 
@@ -37,7 +37,7 @@ h1 {
 }
 
 #hero-buttons {
-  color: white;
+  color: #ffffff;
   font-size: 2.5rem;
   width: 64px;
   padding: 0.5rem;
@@ -65,6 +65,10 @@ h1 {
   text-align: justify;
 }
 
+.about-me-title, .about-me-text, .skills-list {
+  margin: 0 0 1rem;
+}
+
 .skills-list {
   font-weight: bold;
 }
@@ -72,6 +76,7 @@ h1 {
 .skillset {
   list-style: none;
 }
+
 
 /* About me ends here */
 
@@ -100,7 +105,10 @@ h2 {
 .card-image {
   border-radius: 4px 4px 0 0;
   width: 100%;
-  height: 50vh;
+}
+
+.card-text {
+  padding: 2%;
 }
 
 .category {
@@ -117,6 +125,7 @@ h2 {
 .contact-me {
   background-color:#fca311;
   padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .contact-title, .touch-title {
@@ -124,7 +133,7 @@ h2 {
 }
 
 #socials {
-  color: white;
+  color: #ffffff;
   padding: 3%;
   text-align: center;
 }
@@ -157,11 +166,13 @@ input, textarea {
   background-color: #e5e5e5;
   padding: 1%;
   cursor: pointer;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
 }
 
 input:hover {
   background-color: #14213d;
-  color: white;
+  color: #ffffff;
 }
 
 /* Contact Me ends here */
@@ -169,15 +180,15 @@ input:hover {
 @media screen and (min-width: 768px) {
 
   .hero {
-    height: 30vh;
+    height: 45vh;
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .hero-subtext {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
   }
 
