@@ -4,113 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Danny Bowden</title>
+  <title>The Football Cliche Generator</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/44225f99e1.js" crossorigin="anonymous"></script>
-
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header></header>
-  <main>
-
-  <!-- Hero start -->
-  <section class="hero">
-    <div id='hero-buttons'>
-      <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i>
-    </div>
-    <div class="hero-info">
-      <h1>Hi! My name is Danny</h1>
-      <p class='hero-subtext'>Budding front end web developer</p>
-    </div>
+  <section class='text-center'>
+    <h1>The Football Cliche Generator</h1>
+    <form class="form"> 
+      <p class='history-text'>Create your own piece of totally untrue, terrible commentary history!</p>
+      <button type="submit" class='button'>Generate</button>
+    </form>
+    <article id='cliche-text'></article>
   </section>
-
-<!-- Hero end -->
-<!-- About Me start-->
-<section class='about-me'>
-  <h2 class='about-me-title'>About Me</h2>
-  <p class='about-me-text'>Based around the Essex/Hertfordshire area, I'm looking to forge a career in tech, having recently completed a front end web developer bootcamp with Purple Beard.</p>
-  <h3 class='skills-list'>Technical Skills:</h3>
-  <ul class='skillset'>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>React</li>
-    <li>SQL</li>
-  </ul>
-</section>
-<!-- About Me end-->
-
-<!-- My Projects start -->
-  <h2>My Projects</h2>
-<section class='my-projects'>
-  <div class="card">
-    <img class='card-image' src="img/travel.jpg" alt="Travel essentials on a table" />
-    <div class="card-text">
-      <h3 class="category">The Allergic Traveller</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis soluta accusamus, pariatur autem adipisci quam impedit? Aliquid esse eius error inventore, natus repudiandae, ab ipsum aspernatur voluptas quibusdam accusantium excepturi.
-        Lorem
-      </p>
-    </div>
-  </div>
-  <div class="card">
-    <img class='card-image' src="img/headphones.jpg" alt="A pair of wireless headphones" />
-    <div class="card-text">
-      <h3 class="category">Project 2</h3>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iusto blanditiis laboriosam ab ut possimus beatae modi asperiores repellat porro. Fugit facere nobis eum. Quia sequi nemo eos non provident?
-      </p>
-    </div>
-  </div>
-  
-    <div class="card">
-      <img class='card-image' src="img/htmlcode.jpg" alt="A screenshot of some HTML" />
-      <div class="card-text">
-        <h3 class="category">Project 3</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iusto blanditiis laboriosam ab ut possimus beatae modi asperiores repellat porro. Fugit facere nobis eum. Quia sequi nemo eos non provident?
-        </p>
-      </div>
-  </div>
-</section>
-<!-- My Projects end-->
-<!-- Contact Me start-->
-<section class='contact-me'>
-<div id='touch'>
-  <h2 class='touch-title'>Get In Touch</h2>
-  <p class='touch-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nemo aliquam ducimus distinctio, labore odio aperiam asperiores nihil, nisi quam esse quidem non corporis velit ipsum nesciunt, exercitationem explicabo repellendus.</p>
-  <div id='socials'>
-  <i class="fab fa-github contact-info"></i><p>dannybowden</p>
-  <br>
-  <i class="fab fa-linkedin contact-info"></i><p>danny-bowden-5354aa12b</p>
-  </div>
-</div>
-<div id='contact'>
-  <h2 class='contact-title'c>Contact Me</h2>
-  <br>
-    <form id='contact-form' action=''>
-    <label for='first-name'>First Name</label>
-    <input type='text' id='first-name' name='first-name'>
-    <br>
-    <label for="surname">Surname</label>
-    <input type="text" id="surname" name="surname" maxlength="100" />
-    <br>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" />
-    <br>
-    <label for="message">Message</label>
-    <textarea name="message" rows="6" cols="30"></textarea>
-    <br>
-    <input class="submit" type="submit" value="Send a message" />
-  </form>
-  </div>
-</section>
-<!-- Contact Me end-->
-  </main>
-  <footer></footer>
+  <script src="app.js"></script>
 </body>
 </html>
